@@ -5,6 +5,9 @@ import ssl
 from http.client import HTTPConnection, HTTPSConnection
 
 
+print('demonstrating change')
+
+
 def demonstrate_request_lifecycle():
     url = input("Enter the URL :) (e.g., https://www.example.com): ").strip()
     if not url.startswith("http://") and not url.startswith("https://"):
